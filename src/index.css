@@ -1705,7 +1705,7 @@ button[type="submit"]:hover {
   pointer-events: none;
 }
 
-.reveal.active {
+.reveal.reveal-show {
   opacity: 1;
   transform: translate(0, 0) scale(1);
   pointer-events: auto;
