@@ -71,7 +71,7 @@ const Projects = () => {
                         style={{ animationDelay: `${index * 0.1}s` }}
                     >
                         <div className="project-image-box">
-                            <img src={project.img} alt={project.title} />
+                            <img src={`${import.meta.env.BASE_URL}${project.img}`} alt={project.title} />
                         </div>
                         <div className="project-content">
                             <h3>{project.title}</h3>

@@ -119,7 +119,7 @@ const Home = () => {
             <div className="container hero-grid">
                 <div className="hero-text">
                     <div className="profile-img-container animate-slide-up">
-                        <img src="profile.jpg" alt="Vishal Vishwakarma" className="profile-img" />
+                        <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Vishal Vishwakarma" className="profile-img" />
                     </div>
                     <p className="badge animate-slide-up" style={{ animationDelay: '0.1s' }}>Open to opportunities</p>
                     <h1 className="animate-slide-up" style={{ animationDelay: '0.2s' }}>Hi, I'm <span className="accent">Vishal 👋🏼</span></h1>
@@ -128,7 +128,7 @@ const Home = () => {
                     <div className="hero-actions animate-slide-up" style={{ animationDelay: '0.5s' }}>
                         <Link to="/projects" className="btn">View Projects</Link>
                         <Link to="/contact" className="btn outline">Contact Me</Link>
-                        <a href="Resume.pdf" className="btn ghost" download>Download Resume</a>
+                        <a href={`${import.meta.env.BASE_URL}Resume.pdf`} className="btn ghost" download>Download Resume</a>
                     </div>
                     <div className="meta animate-slide-up" style={{ animationDelay: '0.6s' }}>
                         <span>📍Kalyan,Mumbai,India</span>
@@ -142,7 +142,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="hero-card animate-slide-up" id="projectCard" style={{ animationDelay: '0.4s' }}>
-                    <img src={currentProject.img} alt={currentProject.title} className="cover" />
+                    <img src={`${import.meta.env.BASE_URL}${currentProject.img}`} alt={currentProject.title} className="cover" />
                     <div className="card-body">
                         <h3>{currentProject.title}</h3>
                         <p className="muted">{currentProject.desc}</p>
@@ -159,7 +159,7 @@ const Home = () => {
                 <h2 className="video-section-title">Recent Project <span>Overview</span></h2>
                 <div className="video-container">
                     <video
-                        src="coding-video.mov"
+                        src={`${import.meta.env.BASE_URL}coding-video.mov`}
                         autoPlay
                         loop
                         muted
