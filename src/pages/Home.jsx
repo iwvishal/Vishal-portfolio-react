@@ -158,16 +158,14 @@ const Home = () => {
             <div className="container video-section reveal reveal-up">
                 <h2 className="video-section-title">Recent Project <span>Overview</span></h2>
                 <div className="video-container">
-                    <video
-                        src={`${import.meta.env.BASE_URL}coding-video.mov`}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="coding-video"
-                    >
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe
+                        src="https://www.youtube.com/embed/W9SHW8AQO8c?autoplay=1&mute=1&loop=1&playlist=W9SHW8AQO8c"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="coding-video-iframe"
+                    ></iframe>
                 </div>
             </div>
 
