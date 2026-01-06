@@ -176,7 +176,7 @@ const Home = () => {
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className={`faq-item ${activeIndex === index ? 'active' : ''} reveal reveal-up`}
+                            className={`faq-item ${activeIndex === index ? 'faq-opened' : ''} reveal reveal-up`}
                             style={{ transitionDelay: `${index * 0.1}s` }}
                             onClick={() => toggleFAQ(index)}
                         >

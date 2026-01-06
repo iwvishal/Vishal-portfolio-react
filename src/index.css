@@ -1585,7 +1585,10 @@ button[type="submit"]:hover {
   transition: all 0.3s ease;
 }
 
-.faq-item.active {
+.faq-item.faq-opened {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
   border-color: rgba(168, 85, 247, 0.4);
   /* Purple border when active */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -1615,7 +1618,7 @@ button[type="submit"]:hover {
   color: #94a3b8;
 }
 
-.faq-item.active .faq-icon {
+.faq-item.faq-opened .faq-icon {
   transform: rotate(180deg);
   color: #a855f7;
 }
@@ -1627,7 +1630,7 @@ button[type="submit"]:hover {
   background: rgba(148, 163, 184, 0.05);
 }
 
-.faq-item.active .faq-answer {
+.faq-item.faq-opened .faq-answer {
   max-height: 200px;
   /* Adjust based on content */
   padding-bottom: 20px;
