@@ -6,35 +6,35 @@ import { FaChevronDown } from 'react-icons/fa';
 const Home = () => {
     const projects = [
         {
-            img: "/shop.jpg",
+            img: "shop.jpg",
             title: "Featured Project: ShopSwift",
             desc: "Full-stack MERN app with product search, cart, Stripe payments & admin dashboard.",
             live: "#",
             code: "#"
         },
         {
-            img: "/portfolio.jpg.avif",
+            img: "portfolio.jpg.avif",
             title: "Featured Project: Portfolio Website",
             desc: "Responsive personal portfolio with dark/light mode and modern UI.",
             live: "#",
             code: "#"
         },
         {
-            img: "/management.jpg",
+            img: "management.jpg",
             title: "Featured Project: Task Manager",
             desc: "MERN app for task tracking, authentication, and real-time updates.",
             live: "#",
             code: "#"
         },
         {
-            img: "/expenseproject.jpg",
+            img: "expenseproject.jpg",
             title: "Featured Project: Expense Tracker",
             desc: "Flutter-based expense tracker to manage income, expenses, categories, and monthly reports.",
             live: "#",
             code: "#"
         },
         {
-            img: "/chatapp.png",
+            img: "chatapp.png",
             title: "MERN Real-Time Chat App",
             desc: "A full-stack real-time chat application with user authentication, group chats, and instant messaging using Socket.io.",
             tags: ["React", "Node.js", "MongoDB", "Socket.io"],
@@ -42,7 +42,7 @@ const Home = () => {
             code: "#"
         },
         {
-            img: "/office-management.png",
+            img: "office-management.png",
             title: "Office Employees Management System",
             desc: "A comprehensive MERN stack application for managing employee records with CRUD operations, RESTful APIs, and secure MongoDB storage.",
             tags: ["React", "Node.js", "MongoDB", "Express"],

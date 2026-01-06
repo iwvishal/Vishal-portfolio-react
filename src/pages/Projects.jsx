@@ -4,7 +4,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 const Projects = () => {
     const projects = [
         {
-            img: "/chatapp.png",
+            img: "chatapp.png",
             title: "MERN Real-Time Chat App",
             desc: "A full-stack real-time chat application with user authentication, group chats, and instant messaging using Socket.io.",
             tags: ["React", "Node.js", "MongoDB", "Socket.io"],
@@ -12,7 +12,7 @@ const Projects = () => {
             code: "https://github.com/iwvishal/ChatifyApp"
         },
         {
-            img: "/office-management.png",
+            img: "office-management.png",
             title: "Office Employees Management System",
             desc: "A comprehensive MERN stack application for managing employee records with CRUD operations, RESTful APIs, and secure MongoDB storage.",
             tags: ["React", "Node.js", "MongoDB", "Express"],
@@ -20,7 +20,7 @@ const Projects = () => {
             code: "#"
         },
         {
-            img: "/portfolio-preview.png",
+            img: "portfolio-preview.png",
             title: "MyPortfolio — Professional Portfolio",
             desc: "A modern, responsive portfolio website built with React.js, featuring glassmorphism, smooth animations, and interactive components.",
             tags: ["React.js", "Vanilla CSS", "Framer Motion"],
@@ -28,7 +28,7 @@ const Projects = () => {
             code: "https://github.com/iwvishal/myFinalPortfolio"
         },
         {
-            img: "/gossip.png",
+            img: "gossip.png",
             title: "Gossip — Social Media Platform",
             desc: "Developed a cross-platform social media application for a freelance client while collaborating with a professional development team. Focused on real-time features and seamless UI/UX.",
             tags: ["Flutter", "Dart", "Firebase", "Team Collaboration"],
@@ -36,7 +36,7 @@ const Projects = () => {
             code: "#"
         },
         {
-            img: "/expenseproject.jpg",
+            img: "expenseproject.jpg",
             title: "Expense Tracker — Flutter App",
             desc: "A cross-platform mobile app to manage daily expenses, visualize spending with charts, and set budget goals.",
             tags: ["Flutter", "Dart", "Firebase"],
@@ -45,7 +45,7 @@ const Projects = () => {
         },
 
         {
-            img: "/shop.jpg",
+            img: "shop.jpg",
             title: "ShopSwift — E-commerce Store",
             desc: "Full-stack MERN app with product search, cart, payments (Stripe), and admin dashboard.",
             tags: ["React", "Node.js", "MongoDB", "Stripe"],
