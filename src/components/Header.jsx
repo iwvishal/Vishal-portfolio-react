@@ -55,7 +55,7 @@ const Header = () => {
             <div className="container header-inner">
                 {/* Brand */}
                 <Link className="brand" to="/" onClick={closeMobileNav}>
-                    <img src="/Picsart_25-09-03_21-48-52-942.png" alt="Vishal Logo" className="logo" />
+                    <img src="Picsart_25-09-03_21-48-52-942.png" alt="Vishal Logo" className="logo" />
                 </Link>
 
                 {/* Desktop Nav */}
