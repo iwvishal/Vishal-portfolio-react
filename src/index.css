@@ -212,6 +212,27 @@ body.dark .site-header {
   gap: 24px;
 }
 
+.mobile-theme-tile {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px 20px;
+  border-radius: 12px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mobile-theme-tile span {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
 /* Mobile Nav Open State */
 .mobile-nav-open .mobile-nav-overlay {
   opacity: 1;

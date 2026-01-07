@@ -96,8 +96,8 @@ const Header = () => {
                 <Link to="/education" className={`mobile-nav-link ${isActive('/education')}`} onClick={closeMobileNav}>Education</Link>
                 <Link to="/contact" className={`mobile-nav-link ${isActive('/contact')}`} onClick={closeMobileNav}>Contact</Link>
 
-                <div style={{ marginTop: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <span style={{ color: 'var(--muted)' }}>Switch Theme</span>
+                <div className="mobile-theme-tile">
+                    <span>Switch Theme</span>
                     <button
                         className="theme-toggle-btn"
                         aria-label="Toggle theme"
