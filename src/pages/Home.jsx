@@ -99,6 +99,7 @@ const Home = () => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('reveal-show');
+                    observer.unobserve(entry.target);
                 }
             });
         }, observerOptions);
@@ -176,16 +177,20 @@ const Home = () => {
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className={`faq-item ${activeIndex === index ? 'faq-opened' : ''} reveal reveal-up`}
+                            className="reveal reveal-up"
                             style={{ transitionDelay: `${index * 0.1}s` }}
-                            onClick={() => toggleFAQ(index)}
                         >
-                            <button className="faq-question">
-                                {faq.question}
-                                <FaChevronDown className="faq-icon" />
-                            </button>
-                            <div className="faq-answer">
-                                <p>{faq.answer}</p>
+                            <div
+                                className={`faq-item ${activeIndex === index ? 'faq-opened' : ''}`}
+                                onClick={() => toggleFAQ(index)}
+                            >
+                                <button className="faq-question">
+                                    {faq.question}
+                                    <FaChevronDown className="faq-icon" />
+                                </button>
+                                <div className="faq-answer">
+                                    <p>{faq.answer}</p>
+                                </div>
                             </div>
                         </div>
                     ))}
